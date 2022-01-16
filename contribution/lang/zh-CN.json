@@ -68,7 +68,7 @@
  	 	},
  	 	"printer": {
  	 	 	"name": {
- 	 	 	 	"trans": "3D分子印刷机",
+ 	 	 	 	"trans": "3D分子打印机",
  	 	 	 	"eng": "Molecular 3d Printer"
  	 	 	},
  	 	 	"tut": {
@@ -86,7 +86,7 @@
  	 	},
  	 	"weaponSmith": {
  	 	 	"name": {
- 	 	 	 	"trans": "武器工坊",
+ 	 	 	 	"trans": "武器商店",
  	 	 	 	"eng": "Weapon Smith"
  	 	 	},
  	 	 	"defaultLines": {
@@ -533,7 +533,7 @@
  	 	 	 	"eng": "Deploy farm bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[线下经验获取]\r\n        部署AI核心来自动探索地下城, 这将消耗一个AI核心, 它们通常只管理一次探索。",
+ 	 	 	 	"trans": "[线下经验获取]\r\n        部署AI核心来自动探索地下城, 这将消耗一个AI核心, 它们通常只探索一次。",
  	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
  	 	 	},
  	 	 	"tut": {
@@ -1164,7 +1164,7 @@
  	 	 	 	"eng": "Calibration Safety Nano Bots"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "实验纳米机器设计用于减少和否定失效校准时的破坏性效果， \r\n         激活此后，所有校准都不会破坏项目5分钟",
+ 	 	 	 	"trans": "实验纳米机器设计用于减少和去除失效校准时的破坏性效果， \r\n         激活后，所有校准都不会破坏项目5分钟",
  	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes (Applies to all players)"
  	 	 	}
  	 	},
@@ -1264,7 +1264,7 @@
  	 	 	 	"eng": "Calibration AI Shard (50%) [EVENT]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "含有先进AI的碎片，旨在协助升级设备。 \r\n         使用时，将破坏性故障的可能性降低50％5分钟。 效果仅对自己生效。 \r\n         您可以在您的公会总部校准物品，但首先必须加入或成立一个公会。",
+ 	 	 	 	"trans": "含有先进AI的碎片，旨在协助升级设备。 \r\n         使用时，将损毁的可能性降低50％5分钟。 效果仅对自己生效。 \r\n         您可以在您的公会总部校准物品，但首先必须加入或成立一个公会。",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% for 5 minutes. this only affect yourself.\r\n        You can calibrate items in your Gang Headquarters, you must join or start a gang first."
  	 	 	}
  	 	},
@@ -1294,7 +1294,7 @@
  	 	 	 	"eng": "Chat exploit transmitter [UwU]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "一个漏洞wi用模块，win截全局wiao天并修改它wai执行中间攻击。 \r\n          在全球wiao天中将所有发言转换为UwU发言。 这会啊呜呜呜呜呜呜呜呜呜所有玩家10分钟",
+ 	 	 	 	"trans": "一个漏洞wi用模块，拦截全局wiao天并修改它wai执行中间攻击。 \r\n          在全球wiao天中将所有发言转换为UwU发言。 这会UwU所有玩家10分钟",
  	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
  	 	 	}
  	 	},
@@ -1369,7 +1369,7 @@
  	 	 	 	 	"legendaryChance",
  	 	 	 	 	"maxStack"
  	 	 	 	],
- 	 	 	 	"trans": "一个碎片，包含预先利用，旨在增加高层物品随机降落的机会。 在解锁传奇容器（堆叠最多${maxStack}时间）20分钟时，增加了传奇（${legendaryChance}％）和史诗（${epicChance}％）项目的额外丢弃机会。 在圣诞节季节期间获得神秘集装箱的额外机会。",
+ 	 	 	 	"trans": "一个碎片，包含预先利用，旨在增加高层物品随机降落的机会。 在解锁传奇容器（堆叠最多${maxStack}时间）20分钟时，增加了传奇（${legendaryChance}％）和史诗（${epicChance}％）项目的额外掉落机会。 在圣诞节季节期间获得神秘集装箱的额外机会。",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (stack up to ${maxStack} times) for 20 minutes. Extra chance to get Mystery Container during Christmas season."
  	 	 	},
  	 	 	"descriptionv2": {
@@ -1379,7 +1379,7 @@
  	 	 	 	 	"maxStack",
  	 	 	 	 	"time"
  	 	 	 	],
- 	 	 	 	"trans": "一个碎片，包含预先利用，旨在增加高层物品随机降落的机会。 在解锁传奇容器（最多${maxStack}时间）以获得${time}分钟时，可以获得传奇（${legendaryChance}％）和epic（${epicChance}％）项目的额外丢弃机会。 在圣诞节季节期间获得神秘集装箱的额外机会。",
+ 	 	 	 	"trans": "一个碎片，包含预先利用，旨在增加高层物品随机降落的机会。 在解锁传奇容器（最多${maxStack}时间）以获得${time}分钟时，可以获得传奇（${legendaryChance}％）和epic（${epicChance}％）项目的额外掉落机会。 在圣诞节季节期间获得神秘集装箱的额外机会。",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (stack up to ${maxStack} times) for ${time} minutes. Extra chance to get Mystery Container during Christmas season."
  	 	 	},
  	 	 	"descriptionv3": {
@@ -1389,20 +1389,20 @@
  	 	 	 	 	"maxStack",
  	 	 	 	 	"time"
  	 	 	 	],
- 	 	 	 	"trans": "一个碎片，包含预先利用，旨在增加高层物品随机降落的机会。 在解锁传奇容器（不可堆叠）以获得${time}分钟时，可以获得传奇（${legendaryChance}％）和史诗（${epicChance}％）项目的额外可能。 *重要提示：在BUFF处于活动状态时启动解锁过程时，BUFF将仅适用。",
+ 	 	 	 	"trans": "一个碎片，包含预先利用，旨在增加高层物品随机降落的机会。 在解锁传奇容器（不可堆叠）以获得${time}分钟时，可以获得传奇（${legendaryChance}％）和史诗（${epicChance}％）项目的额外可能。 *重要提示：BUFF仅处于活动状态时或启动解锁过程时有用。",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
  	 	 	}
  	 	},
  	 	"flashGrenade": {
  	 	 	"name": {
- 	 	 	 	"trans": "闪光手榴弹",
+ 	 	 	 	"trans": "闪光弹",
  	 	 	 	"eng": "Flash Grenade"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"escape"
  	 	 	 	],
- 	 	 	 	"trans": "闪光手榴弹可用于盲目。 增加你的机会{0}％",
+ 	 	 	 	"trans": "闪光弹可用于致盲。 增加你逃跑的机会{0}％",
  	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
  	 	 	}
  	 	}
@@ -1426,7 +1426,7 @@
  	 	 	 	"eng": "Explore ${zoneName}"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "深入地下城来获得等好的物资与更多的经验吧！\r\n                        切记在进入前准备好药物! 在地下城中你的血量不会在战斗后恢复！",
+ 	 	 	 	"trans": "深入地下城来获得更好的物资与更多的经验吧！\r\n                        切记在进入前准备好治疗品! 在地下城中你的血量不会在战斗后恢复！",
  	 	 	 	"eng": "Are you ready? you can test your strength out with normal dungeon, the easiest one.\r\n                        Remember to bring healing item! you won't heal after fights in dungeon"
  	 	 	}
  	 	},
@@ -1448,7 +1448,7 @@
  	 	 	 	"eng": "attack ${zoneName}"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "觉得自己足够强大了吗? 挑战地下城里大展身手吧！\r\n                        里面有海量的物资等待着你的探索，也有一个强大的首领等候着你!\r\n                        建议最好与其他玩家一起合作探索",
+ 	 	 	 	"trans": "觉得自己足够强大了吗? 在挑战地下城里大展身手吧！\r\n                        里面有海量的物资等待着你的探索，也有一个强大的首领等候着你!\r\n                        建议最好与其他玩家一起合作探索",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	}
  	 	},
@@ -1471,15 +1471,15 @@
  	 	 	}
  	 	},
  	 	"buttonTut": {
- 	 	 	"trans": "你觉得你足够强大吗？ 来挑战在地下城中更强大的敌人吧！ \r\n                         记得买一些治疗物品！ 在地下城中你的血量不会在战斗后恢复！",
+ 	 	 	"trans": "你觉得你足够强大吗？ 来挑战在地下城中更强大的敌人吧！ \r\n                         记得买一些治疗品！ 在地下城中你的血量不会在战斗后恢复！",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
  	 	},
  	 	"enemyInRoomDoorError": {
- 	 	 	"trans": "在房间里仍然敌人时，你不能使用门",
+ 	 	 	"trans": "在房间里仍然有敌人时，你不能走",
  	 	 	"eng": "You cannot use door while there is still enemy in room"
  	 	},
  	 	"enemyInCrateDoorError": {
- 	 	 	"trans": "在附近的敌人仍然有搜索太危险了",
+ 	 	 	"trans": "在仍然有敌人的附近搜索太危险了",
  	 	 	"eng": "It is too dangerous to search while there are still enemies nearby"
  	 	},
  	 	"loading": {
@@ -1500,7 +1500,7 @@
  	 	 	 	"eng": "Accept Quest"
  	 	 	},
  	 	 	"decline": {
- 	 	 	 	"trans": "衰退追求",
+ 	 	 	 	"trans": "取消任务",
  	 	 	 	"eng": "Decline Quest"
  	 	 	}
  	 	}
@@ -1611,7 +1611,7 @@
  	 	 	 	"eng": "Allies and Friends"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "欢迎来到网上线， \r\n         与您在线交朋友将非常有用，以完成合作op任务， \r\n         如果有任何问题，请继续在线询问人:) \r\n         请记住，如果您在聊天中垃圾邮件，您将被主持人静音。",
+ 	 	 	 	"trans": "欢迎来到CyberCode Online， \r\n         在线交朋友将对您非常有用，以完成合作op任务， \r\n         如果有任何问题，请在线上问人:) \r\n         请记住，如果您在聊天中发垃圾邮件，您将被管理员静音。",
  	 	 	 	"eng": "Welcome to CyberCode Online,\r\n        making friends with people online will be very useful for you to complete co-op quests,\r\n        go ahead ask people online if you have got any questions :)\r\n        Remember, if you spam in the chat, you will be muted by moderators."
  	 	 	}
  	 	},
@@ -1621,7 +1621,7 @@
  	 	 	 	"eng": "Reach printing rank 3"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "使用缓存打印的项目级别由您的印刷等级决定， \r\n         升级您的印刷等级，以便您可以打印更高的级别项目。 \r\n        \r\n         您可以在[中央枢纽]在[中央中心]，使用它来打印一些缓存来提升您的印刷等级",
+ 	 	 	 	"trans": "使用模板打印的项目级别由您的印刷等级决定， \r\n         升级您的印刷等级，以便您可以打印更高的级别项目。 \r\n        \r\n         您可以在[中央枢纽]在[中央中心]，使用它来打印一些模板来提升您的印刷等级",
  	 	 	 	"eng": "The level of itemS you print with Caches are determined by your Printing Rank,\r\n        level up your Printing Rank so you can print higher level items.\r\n        \r\n        You can find Molecular 3D Printer at [Central Hub], use it to print some caches to level up your Printing Rank"
  	 	 	}
  	 	},
@@ -1631,7 +1631,7 @@
  	 	 	 	"eng": "Open Crate"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "在地下城中打开4个箱子，让他们甜蜜的战利品！",
+ 	 	 	 	"trans": "在地下城中打开4个箱子，收集他们甜蜜的战利品！",
  	 	 	 	"eng": "Open 4 crates in dungeon to get them sweet loots!"
  	 	 	}
  	 	},
@@ -1671,7 +1671,7 @@
  	 	 	 	"eng": "Market merchant"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "您可以从玩家市场的玩家出售和购买物品，通过向玩家市场添加物品来试用它",
+ 	 	 	 	"trans": "您可以从玩家市场的玩家出售和购买物品，通过向玩家市场添加物品来使用它",
  	 	 	 	"eng": "You can sell and purchase items from players in the player market, try it out by adding an item to the player market"
  	 	 	}
  	 	}
@@ -1686,7 +1686,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"skipCount"
  	 	 	 	],
- 	 	 	 	"trans": "时光正在飞逝：${skipCount}",
+ 	 	 	 	"trans": "时光飞逝中：${skipCount}",
  	 	 	 	"eng": "Skipping ${skipCount}"
  	 	 	},
  	 	 	"skipAvailable": {
@@ -1733,14 +1733,14 @@
  	 	 	 	"vars": [
  	 	 	 	 	"hiddenCount"
  	 	 	 	],
- 	 	 	 	"trans": "${hiddenCount}可以在此位置解锁更多的互动版，升级以解锁它们。",
+ 	 	 	 	"trans": "${hiddenCount}可以在此位置解锁更多的功能，升级以解锁它们。",
  	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
  	 	 	},
  	 	 	"travelHiddenLinks": {
  	 	 	 	"vars": [
  	 	 	 	 	"hiddenCount"
  	 	 	 	],
- 	 	 	 	"trans": "${hiddenCount}更多旅行选项可以解锁",
+ 	 	 	 	"trans": "${hiddenCount}更多旅行站可以解锁",
  	 	 	 	"eng": "${hiddenCount} more travel options can be unlocked"
  	 	 	}
  	 	},
@@ -1846,7 +1846,7 @@
  	 	 	 	"eng": "Custom profile image is a donator exclusive feature"
  	 	 	},
  	 	 	"changePictureDescription": {
- 	 	 	 	"trans": "为您提供最好的不需要付费的经验，所有付费功能都必须像个人资料图像和聊天框架一样， \n                                                 或全球性脂肪在游戏中有益于每个人:) \n                                                 希望你能享受不需要付费的经验！",
+ 	 	 	 	"trans": "为提供最好的不需要花钱赢的经验，所有付费功能都必须像个人资料图像和聊天框架一样， \n                                                 或在游戏中有益于每个人的全球性增益:) \n                                                 希望你能享受不需要花钱赢的经验！",
  	 	 	 	"eng": "To provide the best No Pay-to-Win experience to you, it is necessary that all paid features are cosmetic like profile images & chat frames, \n                                                or global buffs that benefits everyone in game :)\n                                                Hope you enjoy the No Pay-to-Win experience!"
  	 	 	},
  	 	 	"confirm": {
@@ -2191,7 +2191,7 @@
  	 	 	},
  	 	 	"occupation": {
  	 	 	 	"noClan": {
- 	 	 	 	 	"trans": "没有公会占据了这个地区",
+ 	 	 	 	 	"trans": "没有公会占据这个地区",
  	 	 	 	 	"eng": "No gang has occupied this area yet"
  	 	 	 	}
  	 	 	}
@@ -2353,7 +2353,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"failureRate": {
- 	 	 	 	"trans": "破坏性故障几率",
+ 	 	 	 	"trans": "损毁几率",
  	 	 	 	"eng": "Chance of destructive failure"
  	 	 	},
  	 	 	"selectEquipmentTitle": {
@@ -2398,11 +2398,11 @@
  	 	},
  	 	"noPrintableCaches": {
  	 	 	"title": {
- 	 	 	 	"trans": "未找到装备缓存",
+ 	 	 	 	"trans": "未找到装备模板",
  	 	 	 	"eng": "Equipment Cache not found"
  	 	 	},
  	 	 	"subTitle": {
- 	 	 	 	"trans": "从敌人和地下城中收集缓存以打印你的新武器和盔甲。",
+ 	 	 	 	"trans": "从敌人和地下城中收集模板以打印你的新武器和盔甲。",
  	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
  	 	 	}
  	 	},
@@ -2444,11 +2444,11 @@
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	},
  	 	 	 	"selectDepositItem": {
- 	 	 	 	 	"trans": "你想把多少钱放在拱顶？",
+ 	 	 	 	 	"trans": "你想把多少钱放在银行？",
  	 	 	 	 	"eng": "How many would you like to put in the vault?"
  	 	 	 	},
  	 	 	 	"selectWithdrawItem": {
- 	 	 	 	 	"trans": "您想从银行退出多少？",
+ 	 	 	 	 	"trans": "您想从银行取出多少？",
  	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	}
  	 	 	},
@@ -2482,7 +2482,7 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "你找到了一个古老的锁定保险箱，看起来上面贴了一个写了一些字的便利贴。",
+ 	 	 	 	"trans": "你找到了一个古老的上锁保险箱，看起来上面贴了一个写了一些字的便利贴。",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
@@ -2552,7 +2552,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AoE]效果领域，此项目的效果将与您施加战斗中的盟友。",
+ 	 	 	 	"trans": "[AoE]效果领域，此项目的效果将对您和战斗中的盟友施加。",
  	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
@@ -2568,7 +2568,7 @@
  	 	 	 	"eng": "Use"
  	 	 	},
  	 	 	"unlock": {
- 	 	 	 	"trans": "开锁",
+ 	 	 	 	"trans": "解锁",
  	 	 	 	"eng": "Unlock"
  	 	 	},
  	 	 	"lock": {
@@ -2587,11 +2587,11 @@
  	 	 	 	"eng": "Prevents accidental selling or destroying"
  	 	 	},
  	 	 	"attachableUpgradesTitle": {
- 	 	 	 	"trans": "可连接升级",
+ 	 	 	 	"trans": "可连接升级模块",
  	 	 	 	"eng": "Attachable Upgrades"
  	 	 	},
  	 	 	"cantEquip": {
- 	 	 	 	"trans": "这个项目的水平太低了",
+ 	 	 	 	"trans": "这个项目的等级太低了",
  	 	 	 	"eng": "Your level is too low for this item"
  	 	 	},
  	 	 	"noAttachableUpgrades": {
@@ -2816,12 +2816,12 @@
  	 	},
  	 	"basicInfo": {
  	 	 	"emptyError": {
- 	 	 	 	"trans": "请输入您的角色名称以继续。",
+ 	 	 	 	"trans": "请输入您的角色名以继续。",
  	 	 	 	"eng": "Please enter your character name to continue."
  	 	 	},
  	 	 	"playerNameInput": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "角色名字",
+ 	 	 	 	 	"trans": "角色名",
  	 	 	 	 	"eng": "Character Name"
  	 	 	 	},
  	 	 	 	"description": {
@@ -2839,7 +2839,7 @@
  	 	 	},
  	 	 	"hasRefererCheckbox": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "只检查您是否有推荐器（可选）",
+ 	 	 	 	 	"trans": "只检查您是否有推荐者（可选）",
  	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
  	 	 	 	},
  	 	 	 	"title": {
@@ -2853,7 +2853,7 @@
  	 	 	 	 	"eng": "Who referred you?"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "请搜索并选择推荐给您的播放器",
+ 	 	 	 	 	"trans": "请搜索并选择推荐您的用户",
  	 	 	 	 	"eng": "Please search and select the player who referred you"
  	 	 	 	}
  	 	 	},
@@ -2887,7 +2887,7 @@
  	 	 	 	 	"eng": "You cannot change this in the future"
  	 	 	 	},
  	 	 	 	"confirmButton": {
- 	 	 	 	 	"trans": "我相信",
+ 	 	 	 	 	"trans": "我确定",
  	 	 	 	 	"eng": "I am sure"
  	 	 	 	}
  	 	 	}
@@ -2903,7 +2903,7 @@
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "全球时光飞逝让您跳过线下等待时间并立即完成。 \n     这将对执行线下任务的所有玩家生效。",
+ 	 	 	 	 	"trans": "全球时光飞逝让您跳过挂机时间并立即完成。 \n     这将对执行挂机任务的所有玩家生效。",
  	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -2938,7 +2938,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "全球时光飞逝让您跳过线下等待时间，并立即完成。 \n     这将对执行线下任务的所有玩家生效。",
+ 	 	 	 	"trans": "全球时光飞逝让您跳过挂机时间，并立即完成。 \n     这将对执行挂机任务的所有玩家生效。",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all players performing an AFK task"
  	 	 	},
  	 	 	"confirmModal": {
@@ -2947,7 +2947,7 @@
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "全球时光飞逝将跳过所有执行AFK任务的玩家的等待时间",
+ 	 	 	 	 	"trans": "全球时光飞逝将跳过所有执行挂机任务的玩家的等待时间",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	}
@@ -3056,10 +3056,10 @@
  	 	 	 	}
  	 	 	},
  	 	 	"noHealingPrompt": {
- 	 	 	 	"trans": "也许先买一些治疗项目？",
+ 	 	 	 	"trans": "也许先买一些治疗品？",
  	 	 	 	"eng": "Maybe buy some healing item first?",
  	 	 	 	"des": {
- 	 	 	 	 	"trans": "似乎你没有任何痛苦，在进入地下城之前首先从城市的Trinoky Mart购买它，因为你不会在地下城中战斗后",
+ 	 	 	 	 	"trans": "似乎你没有任何止痛药，在进入地下城之前首先从城市中的Trinoky超市购买它，因为你不会在地下城中战斗后恢复",
  	 	 	 	 	"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
  	 	 	 	},
  	 	 	 	"cancel": {
@@ -3073,11 +3073,11 @@
  	 	 	},
  	 	 	"underMaintenance": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "在维护下的地形处",
+ 	 	 	 	 	"trans": "在维护的地下城",
  	 	 	 	 	"eng": "Dungeons Under Maintenance"
  	 	 	 	},
  	 	 	 	"des": {
- 	 	 	 	 	"trans": "Dungeons目前正在维护中，德克斯特正在努力尽快让他们回来！",
+ 	 	 	 	 	"trans": "地下城目前正在维护中，Dexter正在努力尽快让他们回来！",
  	 	 	 	 	"eng": "Dungeons are currently under maintenance, Dexter is working on bringing them back as soon as possible!"
  	 	 	 	}
  	 	 	}
@@ -3091,7 +3091,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"equipmentName"
  	 	 	 	],
- 	 	 	 	"trans": "${equipmentName}被打破，修复了城市的武器史密斯",
+ 	 	 	 	"trans": "${equipmentName}被打破，去城市中的武器商店处修复",
  	 	 	 	"eng": "${equipmentName} is broken, repair it at the Weapon Smith in the City"
  	 	 	}
  	 	},
@@ -3129,38 +3129,38 @@
  	 	 	 	"eng": "Crafting"
  	 	 	},
  	 	 	"onlyShowCraftable": {
- 	 	 	 	"trans": "隐藏你可以驾驶的食谱",
+ 	 	 	 	"trans": "隐藏你不能制作的配方",
  	 	 	 	"eng": "Hide recipes that you can\\'t craft"
  	 	 	}
  	 	},
  	 	"communityItemLore": {
  	 	 	"noLoreButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "创造洛尔",
+ 	 	 	 	 	"trans": "创造知识",
  	 	 	 	 	"eng": "Create Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "没有社区LORE为此项目，是第一个为它创造一个的人。",
+ 	 	 	 	 	"trans": "没有社区知识为此项目，做第一个为它创造的人。",
  	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "社区洛尔",
+ 	 	 	 	 	"trans": "社区知识",
  	 	 	 	 	"eng": "Community Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "为此商品开放社区Lore",
+ 	 	 	 	 	"trans": "为此商品开放社区知识",
  	 	 	 	 	"eng": "Open the community lore for this item"
  	 	 	 	}
  	 	 	},
  	 	 	"editButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "编辑这个洛尔",
+ 	 	 	 	 	"trans": "编辑这个知识",
  	 	 	 	 	"eng": "edit this lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "编辑这个社区洛洛",
+ 	 	 	 	 	"trans": "编辑这个社区知识",
  	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
@@ -3392,7 +3392,7 @@
  	 	 	"eng": "Enemies"
  	 	},
  	 	"moderators": {
- 	 	 	"trans": "主持人",
+ 	 	 	"trans": "管理员",
  	 	 	"eng": "moderators"
  	 	},
  	 	"level": {
@@ -3625,7 +3625,7 @@
  	 	 	 	"eng": "Healing multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "提高你恢复时的效力",
+ 	 	 	 	"trans": "提高你的恢复量",
  	 	 	 	"eng": "Increases the potency of your heals"
  	 	 	}
  	 	},
@@ -3675,59 +3675,59 @@
  	 	 	 	"eng": "Calibration Chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "校准物品时减少破坏性故障的几率",
+ 	 	 	 	"trans": "校准物品时减少损毁的几率",
  	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
  	 	 	}
  	 	},
  	 	"upgradeNoBreak": {
  	 	 	"name": {
- 	 	 	 	"trans": "校准安全",
+ 	 	 	 	"trans": "校准保护",
  	 	 	 	"eng": "Calibration Safety"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "校准失败不会破坏物品",
+ 	 	 	 	"trans": "校准失败不会损毁物品",
  	 	 	 	"eng": "Calibration fails will not destroy the item"
  	 	 	}
  	 	},
  	 	"containerEpicDrop": {
  	 	 	"name": {
- 	 	 	 	"trans": "史诗般的机会",
+ 	 	 	 	"trans": "史诗的机会",
  	 	 	 	"eng": "Epic Chance"
  	 	 	}
  	 	},
  	 	"rngInterferer": {
  	 	 	"description": {
- 	 	 	 	"trans": "容器的额外史诗可能",
+ 	 	 	 	"trans": "额外的史诗掉落机会",
  	 	 	 	"eng": "Additional epic drop chance from containers"
  	 	 	}
  	 	},
  	 	"m1Dmg": {
  	 	 	"name": {
- 	 	 	 	"trans": "动物克尼斯",
+ 	 	 	 	"trans": "动物惩戒",
  	 	 	 	"eng": "Animals Nemesis"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "增加动物帮派敌人的伤害",
+ 	 	 	 	"trans": "对动物帮派敌人造成的伤害增加",
  	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
  	 	 	}
  	 	},
  	 	"m2Dmg": {
  	 	 	"name": {
- 	 	 	 	"trans": "巫毒克尼斯",
+ 	 	 	 	"trans": "巫毒惩戒",
  	 	 	 	"eng": "Voodoo Nemesis"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "对伏都教男孩团伙的敌人造成伤害",
+ 	 	 	 	"trans": "对巫毒男孩团伙的敌人造成的伤害增加",
  	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
  	 	 	}
  	 	},
  	 	"m3Dmg": {
  	 	 	"name": {
- 	 	 	 	"trans": "清除剂克尼斯",
+ 	 	 	 	"trans": "拾荒者惩戒",
  	 	 	 	"eng": "Scavengers Nemesis"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "对清理工人团伙的敌人造成伤害",
+ 	 	 	 	"trans": "对拾荒者团伙的敌人造成的伤害增加",
  	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
  	 	 	}
  	 	},
@@ -3737,7 +3737,7 @@
  	 	 	 	"eng": "Lethal"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "清除者团伙的敌人对你的伤害增加了造成的伤害",
+ 	 	 	 	"trans": "清除者团伙的敌人对你的伤害增加",
  	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
  	 	 	}
  	 	},
@@ -3747,7 +3747,7 @@
  	 	 	 	"eng": "Disruptor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "动物帮派的敌人对你的伤害增加了造成的伤害",
+ 	 	 	 	"trans": "动物帮的敌人对你的伤害增加",
  	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
  	 	 	}
  	 	},
@@ -3757,7 +3757,7 @@
  	 	 	 	"eng": "Makeshift"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "伏都教男孩团伙的敌人对你的伤害增加了造成的伤害",
+ 	 	 	 	"trans": "巫毒男孩团伙的敌人对你的伤害增加",
  	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
  	 	 	}
  	 	}
@@ -3848,7 +3848,7 @@
  	 	 	"vars": [
  	 	 	 	"minLevel"
  	 	 	],
- 	 	 	"trans": "反事项费（LV ${minLevel}）",
+ 	 	 	"trans": "反物质电池（LV ${minLevel}）",
  	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	},
  	 	"christmasGift": {
@@ -3921,7 +3921,7 @@
  	 	},
  	 	"review": {
  	 	 	"title1": {
- 	 	 	 	"trans": "我是德克斯特，这场比赛的开发人员，我希望到目前为止了解您的体验。",
+ 	 	 	 	"trans": "我是Dexter，这场比赛的开发人员，我希望到目前为止了解您的体验。",
  	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
  	 	 	},
  	 	 	"title2": {
@@ -4340,7 +4340,7 @@
  	 	 	"eng": "Click here to attack the enemy"
  	 	},
  	 	"statusInv": {
- 	 	 	"trans": "点击“强夺所有”以获取所有的抢劫",
+ 	 	 	"trans": "点击“全拿走”以获取所有的战利品",
  	 	 	"eng": "Click 'TAKE ALL' to get all the loots"
  	 	},
  	 	"dungeonQuest": {
@@ -4418,7 +4418,7 @@
  	},
  	"statusInventory": {
  	 	"takeAll": {
- 	 	 	"trans": "强夺所有",
+ 	 	 	"trans": "选择所有",
  	 	 	"eng": "Take all"
  	 	},
  	 	"discard": {
@@ -4443,7 +4443,7 @@
  	 	 	"vars": [
  	 	 	 	"item"
  	 	 	],
- 	 	 	"trans": "您的库存中没有足够的空间以{0}",
+ 	 	 	"trans": "您的库存中没有足够的空间{0}",
  	 	 	"eng": "There is no enough space in your inventory for ${item}"
  	 	}
  	},
@@ -4600,7 +4600,7 @@
  	 	 	 	"likerName",
  	 	 	 	"amount"
  	 	 	],
- 	 	 	"trans": "${likerName}向您发起的的全球时光飞逝致敬了${amount}次",
+ 	 	 	"trans": "${likerName}向您发起的全球时光飞逝致敬了${amount}次",
  	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
  	 	}
  	},
@@ -4652,11 +4652,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "金聊天框架（带动画）",
+ 	 	 	 	 	"trans": "黄金聊天框架（带动画）",
  	 	 	 	 	"eng": "Gold chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "金框架概况（有动画）",
+ 	 	 	 	 	"trans": "黄金框架概况（有动画）",
  	 	 	 	 	"eng": "Gold Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -4676,7 +4676,7 @@
  	 	 	 	 	"eng": "Customize gang image"
  	 	 	 	},
  	 	 	 	"9": {
- 	 	 	 	 	"trans": "更新的更新",
+ 	 	 	 	 	"trans": "更多的更新",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -4716,7 +4716,7 @@
  	 	 	 	 	"eng": "Customize gang image"
  	 	 	 	},
  	 	 	 	"9": {
- 	 	 	 	 	"trans": "更新的更新",
+ 	 	 	 	 	"trans": "更多的更新",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -4724,11 +4724,11 @@
  	 	"donation5": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "网上薯土豆",
+ 	 	 	 	 	"trans": "赛博马铃薯",
  	 	 	 	 	"eng": "Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"2": {
- 	 	 	 	 	"trans": "“网络感染土豆”捐赠标题",
+ 	 	 	 	 	"trans": "“网络感染马铃薯”捐赠标题",
  	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
  	 	 	 	},
  	 	 	 	"3": {
@@ -4736,15 +4736,15 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "成为一个数字土豆",
+ 	 	 	 	 	"trans": "成为一个赛博马铃薯",
  	 	 	 	 	"eng": "Become a Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"5": {
- 	 	 	 	 	"trans": "土豆聊天框架（有动画）",
+ 	 	 	 	 	"trans": "马铃薯聊天框架（有动画）",
  	 	 	 	 	"eng": "Potato chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"6": {
- 	 	 	 	 	"trans": "土豆框架的概况（有动画）",
+ 	 	 	 	 	"trans": "马铃薯框架的概况（有动画）",
  	 	 	 	 	"eng": "Potato Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"7": {
@@ -4764,11 +4764,11 @@
  	 	 	 	 	"eng": "Customize gang image"
  	 	 	 	},
  	 	 	 	"11": {
- 	 	 	 	 	"trans": "更新的更新",
+ 	 	 	 	 	"trans": "多的更新",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	},
  	 	 	 	"12": {
- 	 	 	 	 	"trans": "我提到你可能是一个控制论坛吗？",
+ 	 	 	 	 	"trans": "我有提到你是一个赛博马铃薯吗？",
  	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
  	 	 	 	}
  	 	 	}
@@ -4784,7 +4784,7 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "蓝霓虹聊天框架（有动画）",
+ 	 	 	 	 	"trans": "蓝色霓虹聊天框架（有动画）",
  	 	 	 	 	"eng": "Blue Neon chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
@@ -4808,7 +4808,7 @@
  	 	 	 	 	"eng": "Customize gang image"
  	 	 	 	},
  	 	 	 	"9": {
- 	 	 	 	 	"trans": "更新的更新",
+ 	 	 	 	 	"trans": "更多的更新",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -4832,11 +4832,11 @@
  	 	 	"eng": "helmet"
  	 	},
  	 	"upperArmor": {
- 	 	 	"trans": "上盔甲",
+ 	 	 	"trans": "护甲",
  	 	 	"eng": "upper armor"
  	 	},
  	 	"lowerArmor": {
- 	 	 	"trans": "较低的盔甲",
+ 	 	 	"trans": "护腿",
  	 	 	"eng": "lower armor"
  	 	},
  	 	"boots": {
@@ -4945,7 +4945,7 @@
  	 	 	 	 	"eng": "Print equipment"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "使用3D分子印刷机来打印任何物品缓存",
+ 	 	 	 	 	"trans": "使用3D分子打印机来打印任何物品缓存",
  	 	 	 	 	"eng": "use molecular print to print any item cache"
  	 	 	 	}
  	 	 	},
@@ -4971,7 +4971,7 @@
  	 	 	},
  	 	 	"clearDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "地下城",
+ 	 	 	 	 	"trans": "清理地下城",
  	 	 	 	 	"eng": "Clear dungeon"
  	 	 	 	},
  	 	 	 	"description": {
@@ -5058,7 +5058,7 @@
  	},
  	"itemTrait": {
  	 	"stun": {
- 	 	 	"trans": "令人惊叹的",
+ 	 	 	"trans": "眩晕",
  	 	 	"eng": "of Stunning"
  	 	},
  	 	"bargain": {
@@ -5078,7 +5078,7 @@
  	 	 	"eng": "of Life"
  	 	},
  	 	"maxShield": {
- 	 	 	"trans": "屏蔽",
+ 	 	 	"trans": "格挡",
  	 	 	"eng": "of Shielding"
  	 	},
  	 	"sneaky": {
@@ -5086,7 +5086,7 @@
  	 	 	"eng": "of Sneaking"
  	 	},
  	 	"evade": {
- 	 	 	"trans": "逃避",
+ 	 	 	"trans": "闪避",
  	 	 	"eng": "of Evasion"
  	 	},
  	 	"pocketed": {
@@ -5094,11 +5094,11 @@
  	 	 	"eng": "with pockets"
  	 	},
  	 	"criticalChanceArmor": {
- 	 	 	"trans": "灌区的机会",
+ 	 	 	"trans": "暴击率",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"criticalChanceWeapon": {
- 	 	 	"trans": "灌区的机会",
+ 	 	 	"trans": "暴击率",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"criticalDamageArmor": {
@@ -5118,11 +5118,11 @@
  	 	 	"eng": "of Health"
  	 	},
  	 	"upgradeDamage": {
- 	 	 	"trans": "损害",
+ 	 	 	"trans": "伤害",
  	 	 	"eng": "of Damage"
  	 	},
  	 	"upgradeShield": {
- 	 	 	"trans": "盾牌",
+ 	 	 	"trans": "护盾",
  	 	 	"eng": "of Shield"
  	 	},
  	 	"upgradeSneaky": {
@@ -5138,7 +5138,7 @@
  	 	 	"eng": "of Stun"
  	 	},
  	 	"upgradeCriticalChance": {
- 	 	 	"trans": "灌区的机会",
+ 	 	 	"trans": "暴击率",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"upgradeCriticalDamage": {
@@ -5146,7 +5146,7 @@
  	 	 	"eng": "of Crit Damage"
  	 	},
  	 	"upgradeEvade": {
- 	 	 	"trans": "逃避",
+ 	 	 	"trans": "闪避",
  	 	 	"eng": "of Evade"
  	 	},
  	 	"upgradePocketed": {
@@ -5196,7 +5196,7 @@
  	 	 	 	"eng": "Lethal"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "对动物帮派造成的伤害增加。 收到扫名者团伙的伤害增加。",
+ 	 	 	 	"trans": "对动物帮造成的伤害增加。 从拾荒者团伙收到的伤害增加。",
  	 	 	 	"eng": "deals increased damage to Animals gang. receives increased damage from Scavengers gang."
  	 	 	}
  	 	},
@@ -5206,7 +5206,7 @@
  	 	 	 	"eng": "Disruptor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "对伏都教男孩团伙造成的伤害增加了损害。 接受动物帮派造成的增加。",
+ 	 	 	 	"trans": "对巫毒男孩帮造成的伤害增加。 从动物帮收到的伤害增加。",
  	 	 	 	"eng": "deals increased damage to Voodoo Boys gang. receives increased damage from Animals gang."
  	 	 	}
  	 	},
@@ -5216,7 +5216,7 @@
  	 	 	 	"eng": "Makeshift"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "对扫除者团伙的损害增加了造成的增加。 从伏都教男孩帮派受到增加的伤害。",
+ 	 	 	 	"trans": "对拾荒者团伙造成的伤害增加。 从巫毒男孩帮受到的伤害增加。",
  	 	 	 	"eng": "deals increased damage to Scavengers gang. receives increased damage from Voodoo Boys gang."
  	 	 	}
  	 	}
@@ -5230,13 +5230,13 @@
  	 	},
  	 	"gang2": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "伏都教男孩",
+ 	 	 	 	"trans": "巫毒男孩",
  	 	 	 	"eng": "Voodoo boys"
  	 	 	}
  	 	},
  	 	"gang3": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "扫除者",
+ 	 	 	 	"trans": "拾荒者",
  	 	 	 	"eng": "Scavengers"
  	 	 	}
  	 	}
